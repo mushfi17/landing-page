@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contruction Website</title>
+    <!---------------------->
+    <link rel="stylesheet" href="style.css">
+    <!---------------------------------------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!---------------------------------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.6.0/css/lightgallery.min.css"/>
+    <!----------------------------->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <!----------------------------------------------->
+    
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><img src="images/logo.png"></a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#contacts">Contacts</a>
+            <a href="#blogs">Blogs</a>
+        </nav>
+        <div class="icons">
+            <div id="menu-btn" class="fa-solid fa-bars"></div>
+            <div id="info-btn" class="fa-solid fa-circle-info"></div>
+            <div id="search-btn" class="fa-solid fa-search"></div>
+            <div id="login-btn" class="fa-solid fa-user"></div>
+        </div>
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search-here" id="search-box">
+            <label for="search-box" class="fa-solid fa-search" ></label>
+        </form>
+        <form action="" class="login-form">
+            <h3>Login Form</h3>
+            <input type="email" name="" placeholder="Enter your email" class="box">
+            <input type="text" name="" placeholder="Enter your password" class="box">
+            <div class="flex">
+                <input type="checkbox" name="" id="Remember-Me">
+                <label for="remember-me">Remember-Me</label>
+                <a href="#">Forgot Password</a>
+            </div>
+            <input type="submit" value="Login Now" class="btn">
+            <p>Don't have an account <a href="#">Create an account</a></p>
+        </form>
+    </header>
+    <div class="contact-info">
+        <div id="close-contact-info" class="fas fa-times"></div>
+        <div class="info">
+            <i class="fa-solid fa-phone-flip"></i>
+            <h3>Phone Number</h3>
+            <p>+2569758552</p>
+            <p>+125-5878-2365</p>
+        </div>
+        <div class="info">
+            <i class="fa-solid fa-envelope"></i>
+            <h3>Email Address</h3>
+            <p>example@gmail.com</p>
+        </div>
+        <div class="info">
+            <i class="fa-solid fa-map-location"></i>
+            <h3>Office Address</h3>
+            <p>Dhaka,Bangladesh</p>
+        </div>
+        <div class="share">
+            <a href="#" class="fa-brands fa-facebook"></a>
+            <a href="#" class="fa-brands fa-instagram"></a>
+            <a href="#" class="fa-brands fa-twitter"></a>
+            <a href="#" class="fa-brands fa-linkedin"></a>
+        </div>
+    </div>
+
+    <!------------------------------------->
+
+    <section class="home" id="home">
+
+       <div class="swiper home-slider">
+
+        <div class="swiper-wrapper">
+            <section class="swiper-slide slide" style="background: url(images/home-slide1.jpg) no-repeat; ">
+                <div class="content">
+                    <h3>We Provide<br> Best Services</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br> Veniam iste officia minima dignissimos culpa laborum!</p>
+                    <a href="#about" class="btn">Get started</a>
+                </div>
+            
+            </section>
+            <section class="swiper-slide slide" style="background: url(images/home-slide2.jpg) no-repeat; ">
+                <div class="content">
+                    <h3>Making Dream<br> Come to Life</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br> Veniam iste officia minima dignissimos culpa laborum!</p>
+                    <a href="#about" class="btn">Get started</a>
+                </div>
+            
+            </section>
+            <section class="swiper-slide slide" style="background: url(images/home-slide3.jpg) no-repeat; ">
+                <div class="content">
+                    <h3>From Concept<br> To Creation</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br> Veniam iste officia minima dignissimos culpa laborum!</p>
+                    <a href="#about" class="btn">Get started</a>
+                </div>
+            
+            </section>
+        </div>
+       </div>
+    </section>
+
+    <!---------------------------------------->
+
+    <section class="about" id="about">
+        <h1 class="heading">~ ABOUT US ~</h1>
+
+        <div class="row">
+
+            <div class="video">
+                <video src="images/about-vid.mp4" loop muted autoplay></video>
+            </div>
+
+            <div class="content">
+                <h3>We will provide you the best work<br> which your dreamt for!</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro dignissimos 
+                    voluptatum ullam iure, debitis officia similique magnam qui cum quas!</p>
+                    <a href="#services" class="btn">Read More</a>
+            </div>
+            
+        </div>
+
+        <div class="box-container">
+            <div class="box">
+                <h3>10+ years</h3>
+                <p>Years of Experience</p>
+            </div>
+            <div class="box">
+                <h3>1500+ projects</h3>
+                <p>Projects Completed</p>
+            </div>
+            <div class="box">
+                <h3>900+ clients</h3>
+                <p>Satisfied Clients</p>
+            </div>
+            <div class="box">
+                <h3>500+ workers</h3>
+                <p>Active Workers</p>
+            </div>
+        </div>
+    </section>
+
+    <!--------------------------------->
+
+    <section class="services" id="services">
+        <h1 class="heading">~ Our Services ~</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/service-1.png">
+                <h3>Building Construction</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, quos.</p>
+            </div>
+
+            <div class="box">
+                <img src="images/service-2.png">
+                <h3>House Renovation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, quos.</p>
+            </div>
+
+            <div class="box">
+                <img src="images/service-3.png">
+                <h3>Architecture Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, quos.</p>
+            </div>
+              
+            <div class="box">
+                <img src="images/service-4.png">
+                <h3>Materials Supply</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, quos.</p>
+            </div>
+
+            <div class="box">
+                <img src="images/service-5.png">
+                <h3>Construction Consultant</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, quos.</p>
+            </div>
+            <div class="box">
+                <img src="images/service-8.png">
+                <h3>Building Renovation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, quos.</p>
+            </div>
+            
+
+
+            <div class="box">
+                <img src="images/service-7.png">
+                <h3>Building Maintenace</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, quos.</p>
+            </div>
+            
+           
+
+            <div class="box">
+                <img src="images/service-6.png">
+                <h3>Interior Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, quos.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-------------------------->
+
+    <section class="projects" id="projects">
+        <h1 class="heading">~ Our Project ~</h1>
+
+        <div class="box-container">
+
+            <a href="images/project1.jpg" class="box">
+                <div class="image">
+                    <img src="images/project1.jpg">
+                </div>
+                <div class="content">
+                    <div class="info">
+                        <h3>Dream Home</h3>
+                        <p>Construction, Design</p>
+                    </div>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+            </a>
+
+            <a href="images/project-2.jpg" class="box">
+                <div class="image">
+                    <img src="images/project-2.jpg">
+                </div>
+                <div class="content">
+                    <div class="info">
+                        <h3>Dream Home</h3>
+                        <p>Construction, Design</p>
+                    </div>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+            </a>
+
+            <a href="images/project3.jpg" class="box">
+                <div class="image">
+                    <img src="images/project3.jpg">
+                </div>
+                <div class="content">
+                    <div class="info">
+                        <h3>Dream Home</h3>
+                        <p>Construction, Design</p>
+                    </div>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+            </a>
+
+            <a href="images/project4.jpg" class="box">
+                <div class="image">
+                    <img src="images/project4.jpg">
+                </div>
+                <div class="content">
+                    <div class="info">
+                        <h3>Dream Home</h3>
+                        <p>Construction, Design</p>
+                    </div>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+            </a>
+
+            <a href="images/project5.jpg" class="box">
+                <div class="image">
+                    <img src="images/project5.jpg">
+                </div>
+                <div class="content">
+                    <div class="info">
+                        <h3>Dream Home</h3>
+                        <p>Construction, Design</p>
+                    </div>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+            </a>
+
+            <a href="images/project6.jpg" class="box">
+                <div class="image">
+                    <img src="images/project6.jpg">
+                </div>
+                <div class="content">
+                    <div class="info">
+                        <h3>Dream Home</h3>
+                        <p>Construction, Design</p>
+                    </div>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!---------------------------------->
+
+    <section class="reviews">
+
+        <h1 class="heading">~ Clients Reviews ~</h1>
+
+        <div class="swiper reviews-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur nostrum, placeat eius possimus saepe, 
+                        assumenda fuga culpa nulla, rerum dolorem voluptates impedit eos iure. Facere quae voluptate aliquam sed consequuntur.
+                    </p>
+                    <div class="user">
+                        <img src="images/pic-1.png">
+                        <div class="info">
+                            <h3>Mike John</h3>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur nostrum, placeat eius possimus saepe, 
+                        assumenda fuga culpa nulla, rerum dolorem voluptates impedit eos iure. Facere quae voluptate aliquam sed consequuntur.
+                    </p>
+                    <div class="user">
+                        <img src="images/pic-2.png">
+                        <div class="info">
+                            <h3>Mike John</h3>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur nostrum, placeat eius possimus saepe, 
+                        assumenda fuga culpa nulla, rerum dolorem voluptates impedit eos iure. Facere quae voluptate aliquam sed consequuntur.
+                    </p>
+                    <div class="user">
+                        <img src="images/pic-3.png">
+                        <div class="info">
+                            <h3>Mike John</h3>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur nostrum, placeat eius possimus saepe, 
+                        assumenda fuga culpa nulla, rerum dolorem voluptates impedit eos iure. Facere quae voluptate aliquam sed consequuntur.
+                    </p>
+                    <div class="user">
+                        <img src="images/pic-4.png">
+                        <div class="info">
+                            <h3>Mike John</h3>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur nostrum, placeat eius possimus saepe, 
+                        assumenda fuga culpa nulla, rerum dolorem voluptates impedit eos iure. Facere quae voluptate aliquam sed consequuntur.
+                    </p>
+                    <div class="user">
+                        <img src="images/pic-5.png">
+                        <div class="info">
+                            <h3>Mike John</h3>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur nostrum, placeat eius possimus saepe, 
+                        assumenda fuga culpa nulla, rerum dolorem voluptates impedit eos iure. Facere quae voluptate aliquam sed consequuntur.
+                    </p>
+                    <div class="user">
+                        <img src="images/pic-6.png">
+                        <div class="info">
+                            <h3>Mike John</h3>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+    </section>
+
+    <!------------------------------>
+
+    <section class="pricing" id="pricing">
+        <h1 class="heading">~ Our Pricing ~</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+
+                <div class="image">
+                    <img src="images/house.png">
+                </div>
+                <h3>Basic Plan</h3>
+                <div class="price"><span>$</span>450<span>/mo</span></div>
+                <div class="list">
+                    <p>Interior Design</p>
+                    <p>Refurbishment</p>
+                    <p>Material Supply</p>
+                    <p>Maintenace</p>
+                    <p>24/7 Support</p>
+                </div>
+                <a href="#" class="btn">Choose Plan</a>
+            </div>
+
+            <div class="box">
+
+                <div class="image">
+                    <img src="images/building.png">
+                </div>
+                <h3>Premium Plan</h3>
+                <div class="price"><span>$</span>950<span>/mo</span></div>
+                <div class="list">
+                    <p>Interior Design</p>
+                    <p>Refurbishment</p>
+                    <p>Material Supply</p>
+                    <p>Maintenace</p>
+                    <p>24/7 Support</p>
+                </div>
+                <a href="#" class="btn">Choose Plan</a>
+            </div>
+
+            <div class="box">
+
+                <div class="image">
+                    <img src="images/infrastructure.png">
+                </div>
+                <h3>Ultimate Plan</h3>
+                <div class="price"><span>$</span>1450<span>/mo</span></div>
+                <div class="list">
+                    <p>Interior Design</p>
+                    <p>Refurbishment</p>
+                    <p>Material Supply</p>
+                    <p>Maintenace</p>
+                    <p>24/7 Support</p>
+                </div>
+                <a href="#" class="btn">Choose Plan</a>
+            </div>
+        </div>
+    </section>
+
+    <!------------------------------------>
+
+    <section class="contacts" id="contacts">
+        <h1 class="heading">~ Contact Us ~</h1>
+
+        <div class="row">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233668.38703802988!2d90.27919518029096!3d23.
+            7805732574222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2sDhaka!5e0!3m2!1sen!2sbd!4v1663165963349!5m2!1sen!2sbd" 
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <form action="">
+                <h3>Get In Touch</h3>
+                <input type="text" placeholder="Name" class="box" required>
+                <input type="email" placeholder="Email" class="box" required>
+                <input type="number" placeholder="Phone" class="box" required>
+                <textarea name="" placeholder="Message" id="" class="box" rows="10" cols="30"></textarea>
+                <input type="submit" value="send message" class="btn">
+            </form>
+        </div>
+    </section>
+
+    <!---------------------------------->
+
+    <section class="blogs" id="blogs">
+        <h1 class="heading">~ Our Blogs ~</h1>
+
+        <div class="swiper blogs-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/blog-1.jpg">
+                    </div>
+                    <div class="content">
+                        <h3>Blog Title Goes Here!</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, velit? Lorem ipsum dolor sit amet.</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/blog-2.jpg">
+                    </div>
+                    <div class="content">
+                        <h3>Blog Title Goes Here!</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, velit? Lorem ipsum dolor sit amet.</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/blog-3.jpg">
+                    </div>
+                    <div class="content">
+                        <h3>Blog Title Goes Here!</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, velit? Lorem ipsum dolor sit amet.</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/blog-4.jpg">
+                    </div>
+                    <div class="content">
+                        <h3>Blog Title Goes Here!</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, velit? Lorem ipsum dolor sit amet.</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/blog-5.jpg">
+                    </div>
+                    <div class="content">
+                        <h3>Blog Title Goes Here!</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, velit? Lorem ipsum dolor sit amet.</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/blog-6.jpg">
+                    </div>
+                    <div class="content">
+                        <h3>Blog Title Goes Here!</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, velit? Lorem ipsum dolor sit amet.</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+
+    <!---------------------------->
+
+    <section class="logo-container">
+        <div class="swiper logo-slider">
+
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide"><img src="images/client-logo-1.png"></div>
+                <div class="swiper-slide slide"><img src="images/client-logo-2.png"></div>
+                <div class="swiper-slide slide"><img src="images/client-logo-3.png"></div>
+                <div class="swiper-slide slide"><img src="images/client-logo-4.png"></div>
+                <div class="swiper-slide slide"><img src="images/client-logo-5.png"></div>
+                <div class="swiper-slide slide"><img src="images/client-logo-6.png"></div>
+            </div>
+        </div>
+    </section>
+
+    <!---------------------------------->
+
+    <section class="footer">
+        <div class="links">
+                <a class="btn" href="#home">Home</a>
+                <a class="btn" href="#about">About</a>
+                <a class="btn" href="#services">Services</a>
+                <a class="btn" href="#projects">Projects</a>
+                <a class="btn" href="#pricing">Pricing</a>
+                <a class="btn" href="#contacts">Contacts</a>
+                <a class="btn" href="#blogs">Blogs</a>
+            
+        </div>
+        <div class="credits">CopyRight &copy; 2022 | All Rights Reserved</div>
+    </section>
+    
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.6.0/lightgallery.min.js"></script>
+    <!--------------------------------->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <!----------------------------------->
+
+    <script src="script.js"></script>
+    <!--------------------------->
+    <script>
+        lightGallery(document.querySelector('.projects .box-container'));
+    </script>    
+    
+</body>
+</html>
